@@ -1,0 +1,115 @@
+*{
+padding: 0px; 
+margin: 0px; 
+border: 0px;
+box-sizing: border-box;
+} 
+ .navbar{
+  display: grid; 
+ grid-template-columns: auto auto auto auto ; 
+ grid-template-rows: auto; 
+ justify-content: start;  
+ height: 50px ;   
+ text-align: center; 
+ 
+}  
+.navbar-solar{ 
+  display: grid;  
+  grid-template-columns: 400px auto ;  
+  justify-content: space-between; 
+}  
+ .solar-begineers{  
+   border: 1px solid white; 
+   margin-left: 10px ;  
+   margin-top: 5px; 
+   text-align: center;  
+   color: white ;
+   font-weight: 800 ;  
+   font-size: 2em ;  
+   text-transform: uppercase;
+   padding-top: 5px ;  
+   background-color: rgba(23, 26, 31);
+   } 
+   
+.icons{ 
+ border : 1px solid white;   
+ padding-top: 5px ; 
+ border-radius: 10px ;  
+ margin: 10px ; 
+ width: 150px ;     
+ list-style: none;
+ background-color: rgba(23, 26, 31,0.5); 
+    }  
+ .icons:hover{ 
+   background-color: orange ; 
+    }  
+    a { 
+   text-decoration: none; 	
+  font-weight:700; 
+  color:rgb(51,147,212);
+   }
+ body{ 
+  background-image:url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+  color: white;
+  background-color: black ;
+  font-family: 'Secular One', sans-serif;
+   } 
+  p{ 
+     background-color:rgba(23, 26, 31,0.3) ;
+   text-align: justify;
+   padding: 80px ; 
+   margin:20px 50px 0px 50px;   
+   }     
+  img{   
+   width:200px ;   
+}  
+.box{  
+   background-color: white ; 
+    width: 220px ;  
+   display: grid; 
+   grid-template-columns: auto auto;  
+   grid-column-gap:20px ;
+   }  
+  .name{ 
+    color: black ; 
+    font-weight: 800px ; 
+    margin-top: 10px ;   
+} 
+  img{ 
+    height: 40px ; 
+    width:  40px ; 
+    border-radius: 2px ; 
+} 
+ img[class="yash-img"]{ 
+    width: 200px ;
+    height:300px;
+ }     
+
+.img-p{ 
+  display: grid; 
+  grid-template-columns: auto;  
+  border: 1px solid white; 
+  padding: 10px ; 
+  width:  220px ; 
+  background-color: white ;  
+ } 
+ h3{ 
+  background-color: rgba(23, 26, 31,0.4); 
+  text-align: center;
+    } 
+ h4{  
+   background-color: rgba(23, 26, 31,0.4); 
+   text-transform: uppercase; 
+  } 
+ h5{  
+   background-color: rgba(23, 26, 31,0.4);
+  }        
+
+ .bigbox{ 
+   
+   display: grid;  
+   grid-template-columns: auto auto;
+   justify-content: center;
+   align-items: center;
+    }
+ 

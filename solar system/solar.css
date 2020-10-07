@@ -1,0 +1,223 @@
+*{
+padding: 0px; 
+margin: 0px; 
+border: 0px;
+box-sizing: border-box;
+} 
+.navbar{ 
+ display: grid; 
+ grid-template-columns: auto auto ; 
+ grid-template-rows: auto; 
+ justify-content: start;  
+ height: 50px ;   
+ text-align: center; 
+ 
+}  
+.navbar-solar{ 
+  display: grid;  
+  grid-template-columns: 400px auto ;  
+  justify-content: space-between; 
+} 
+ .solar-begineers{  
+   border: 1px solid white; 
+   margin-left: 10px ;  
+   margin-top: 5px; 
+   text-align: center; 
+   font-weight: 800 ;  
+   font-size: 2em ;  
+   text-transform: uppercase;
+   padding-top: 5px ;  
+   background-color: rgba(23, 26, 31);
+   } 
+   
+.icons{ 
+ border : 1px solid white;   
+ padding-top: 5px ; 
+ border-radius: 10px ;  
+ margin: 10px ; 
+ width: 150px ;     
+ list-style: none;
+ background-color: rgba(23, 26, 31,0.5); 
+    }  
+ .icons:hover{ 
+   background-color: orange ; 
+    }
+ a{ 
+  text-decoration: none; 
+  font-weight: 700 ; 
+  color:rgb(51,147,212);
+
+   } 
+ 
+img[class="for-image"]{ 
+height: 250px ;  
+width: 250px ; 
+border-radius: 50% ; 
+padding: 0px ; 
+border: none;       
+animation: spining 10s linear 0.5s infinite normal;
+}  
+img[class="for-image"]:hover{ 
+  animation: none;
+  }
+h1{
+  text-align: center; 
+  text-transform: uppercase; 
+  color: white ;
+  font-family: 'Abril Fatface', cursive; 
+  margin-top: 20px ;
+} 
+body{ 
+color: rgb(235, 238, 242); 
+font-family: 'Secular One', sans-serif;
+font-size: 15px;  
+ background-color: black  ;
+ background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+
+} 
+.major-planets{ 
+ display: grid; 
+ grid-template-columns: auto auto;
+ justify-content: space-between;  
+ align-items: center;
+ text-transform: capitalize; 
+ grid-row-gap: 50px ;
+ 
+} 
+#sun{ 
+ display: grid; 
+ grid-template-columns: auto auto; 
+ justify-content: space-between; 
+ align-items: center;
+  } 
+
+.list{ 
+ display: grid; 
+ grid-template-columns: auto;  
+ grid-row-gap: 30px ;   
+ margin-left: 10px ;  
+ background-color: rgba(0,0,0,0.9); ;
+} 
+.names{  
+  /*border: 2px solid red ;  */
+  height: 50px ;
+  width: 430px ; 
+  font-size :1.1em;  
+  text-align: center; 
+  background-color: orange ; 
+  color: black ; 
+  border-radius: 2px ; 
+  padding: 10px ;
+ }  
+ .names:hover{ 
+    border : 2px solid red;
+   }
+.about{ 
+/*border: 2px solid red ;  */
+height: 50px ; 
+width: 430px ;   
+font-size :1.1em; 
+text-align: center; 
+
+ background-color: blue ;  
+ color:black;
+ border-radius: 2px ;
+ } 
+ .about:hover{ 
+    border : 2px solid red;
+   }
+.orbit{ 
+  /*border: 2px solid red ;*/
+  height: 50px ; 
+  width: 430px ; 
+  font-size :1.1em; 
+  text-align: center; 
+  background-color: green ; 
+  color: black ; 
+  border-radius: 2px ; 
+  padding: 10px ;
+ }
+ .orbit:hover{ 
+    border : 2px solid red; 
+
+   } 
+.moons{ 
+ /* border: 2px solid red ; */
+  height: 50px ; 
+  width: 430px ;  
+  font-size :1.1em; 
+  text-align: center; 
+  padding: 10px ;
+  color: black ; 
+  background-color: indigo ;  
+  border-radius: 2px ; 
+ } 
+ .moons:hover{ 
+    border : 2px solid red; 
+   }
+.color{ 
+ /* border: 2px solid red ;*/
+  height: 50px ; 
+width: 430px ;  
+font-size :1.1em; 
+text-align: center; 
+ padding: 10px ;
+background-color: yellow ; 
+color: black ; 
+border-radius: 2px ;
+ }   
+ .color:hover{ 
+    border : 2px solid red;
+   }
+.fun-fact{ 
+/*border: 2px solid red ; */
+height: 50px; 
+width: 430px ;  
+font-size :1.1em; 
+text-align: center; 
+background-color: red ; 
+color: black ; 
+border-radius: 2px ;
+ } 
+ .fun-fact:hover{ 
+    border : 2px solid red;
+   }   
+ h4{ 
+  color:rgb(237, 231, 230); 
+  text-align: center; 
+  margin: 20px ;
+  text-align: center;  
+  padding: 10px ;  
+  font-size: 1.5em ;
+  font-weight: 700 ; 
+  text-transform: uppercase; 
+  background-color:rgba(23, 26, 31,0.3) ;
+   }
+ h3{ 
+
+  text-align: center; 
+   font-size: 1.5em ; 
+   font-weight: 800 ;  
+   color: yellow ;  
+  background-color:black;
+  margin :10px;
+   } 
+ .solar-para{ 
+   background-color:rgba(23, 26, 31,0.3) ;
+   text-align: justify;
+   padding: 80px ; 
+   margin:20px 50px 50px 50px;   
+   } 
+     
+@keyframes spining { 
+  
+  0%{  
+     transform: rotate(0deg);
+   }
+   100%{  
+     transform: rotate(360deg);
+   }
+
+   }
+ 
+ 
