@@ -19,22 +19,22 @@ box-sizing: border-box;
   justify-content: space-between; 
 }  
  .solar-begineers{  
-   border: 1px solid white; 
+   border: 1.5px solid white; 
    margin-left: 9px ;  
-   margin-top: 4px; 
+   margin-top: 4.5px; 
    text-align: center;  
    color: white ;
    font-weight: 800 ;  
    font-size: 2em ;  
    text-transform: uppercase;
-   padding-top: 5px ;  
+   padding-top: 5.1px ;  
    background-color: rgba(23, 26, 31);
    } 
    
 .icons{ 
- border : 1px solid white;   
+ border : 1.2px solid white;   
  padding-top: 5px ; 
- border-radius: 10px ;  
+ border-radius: 10.5px ;  
  margin: 10px ; 
  width: 150px ;     
  list-style: none;
